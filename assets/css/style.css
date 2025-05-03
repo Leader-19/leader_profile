@@ -1003,6 +1003,34 @@ a:hover{
     background-color: #850dd5;
 }
 
+
+
+.contact-by {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "c1 c2 c3 c4";
+    gap: 10px 10px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
